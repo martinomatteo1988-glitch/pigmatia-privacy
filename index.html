@@ -3,74 +3,207 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Informativa sulla Privacy — Pigmatia</title>
+<title>Privacy Policy — Pigmatia</title>
 <style>
   :root { --pink:#C2185B; --charcoal:#1A1A2E; --gray:#6B7280; }
   * { box-sizing:border-box; }
   body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-         color:var(--charcoal); line-height:1.65; max-width:760px; margin:0 auto; padding:32px 20px 80px; }
+         color:var(--charcoal); line-height:1.65; max-width:760px; margin:0 auto; padding:24px 20px 80px; }
   h1 { color:var(--pink); font-size:1.9rem; margin-bottom:4px; }
-  h2 { color:var(--pink); font-size:1.25rem; margin-top:36px; }
+  h2 { color:var(--pink); font-size:1.2rem; margin-top:34px; }
   .updated { color:var(--gray); font-size:.9rem; margin-bottom:8px; }
   a { color:var(--pink); }
-  .box { background:#FCE4EC; border-radius:12px; padding:16px 20px; margin:24px 0; }
+  .box { background:#FCE4EC; border-radius:12px; padding:16px 20px; margin:22px 0; }
   footer { margin-top:48px; color:var(--gray); font-size:.85rem; border-top:1px solid #eee; padding-top:16px; }
+  .langbar { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 24px; }
+  .langbar button { font:inherit; cursor:pointer; border:1px solid #e5c2d2; background:#fff;
+                    color:var(--pink); border-radius:999px; padding:6px 14px; }
+  .langbar button.active { background:var(--pink); color:#fff; border-color:var(--pink); }
+  .lang { display:none; }
+  .lang.active { display:block; }
+  ul { padding-left:20px; }
 </style>
 </head>
 <body>
 
-<h1>Informativa sulla Privacy</h1>
-<p class="updated">App <strong>Pigmatia</strong> &middot; Ultimo aggiornamento: 4 giugno 2026</p>
-
-<div class="box">
-<strong>In sintesi:</strong> Pigmatia conserva i tuoi dati e quelli dei tuoi clienti <strong>sul tuo dispositivo</strong> e, se attivi la sincronizzazione, nel <strong>tuo iCloud privato</strong>. Lo sviluppatore di Pigmatia <strong>non ha accesso</strong> a questi dati, non li raccoglie e non li condivide con terzi. L'app non utilizza strumenti di tracciamento o pubblicità.
+<div class="langbar">
+  <button data-lang="it">Italiano</button>
+  <button data-lang="en">English</button>
+  <button data-lang="es">Español</button>
+  <button data-lang="fr">Français</button>
+  <button data-lang="de">Deutsch</button>
 </div>
 
+<!-- ===================== ITALIANO ===================== -->
+<section class="lang" data-lang="it">
+<h1>Informativa sulla Privacy</h1>
+<p class="updated">App <strong>Pigmatia</strong> &middot; Ultimo aggiornamento: 4 giugno 2026</p>
+<div class="box"><strong>In sintesi:</strong> Pigmatia conserva i tuoi dati e quelli dei tuoi clienti <strong>sul tuo dispositivo</strong> e, se attivi la sincronizzazione, nel <strong>tuo iCloud privato</strong>. Lo sviluppatore <strong>non ha accesso</strong> a questi dati, non li raccoglie e non li condivide con terzi. L'app non usa strumenti di tracciamento o pubblicità.</div>
 <h2>1. Titolare del trattamento</h2>
-<p>Il Titolare del trattamento per i dati relativi all'app Pigmatia è lo sviluppatore dell'app, contattabile all'indirizzo email: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a> (ditta individuale).</p>
-
+<p>Il Titolare del trattamento per i dati relativi all'app Pigmatia è lo sviluppatore dell'app (ditta individuale), contattabile all'indirizzo: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
 <h2>2. A chi si rivolge l'app e ruoli privacy</h2>
-<p>Pigmatia è uno strumento gestionale destinato a professionisti della dermopigmentazione. I dati dei clienti finali (anagrafica, contatti, foto, dati sanitari/anamnesi, consensi, pagamenti) vengono inseriti dal professionista che utilizza l'app.</p>
-<p>Rispetto a tali dati, <strong>il professionista che usa l'app è il Titolare del trattamento</strong> dei dati dei propri clienti ed è responsabile di raccogliere i consensi necessari e di rispettare il GDPR nei confronti dei propri assistiti. Pigmatia funge esclusivamente da strumento software che memorizza i dati localmente sul dispositivo del professionista.</p>
-
+<p>Pigmatia è uno strumento gestionale per professionisti della dermopigmentazione. I dati dei clienti finali (anagrafica, contatti, foto, dati sanitari/anamnesi, consensi, pagamenti) sono inseriti dal professionista che usa l'app. Rispetto a tali dati, <strong>il professionista è il Titolare del trattamento</strong> dei dati dei propri clienti ed è responsabile di raccogliere i consensi necessari e di rispettare il GDPR verso i propri assistiti. Pigmatia è esclusivamente uno strumento software che memorizza i dati sul dispositivo del professionista.</p>
 <h2>3. Quali dati tratta l'app</h2>
-<p>L'app consente di inserire e gestire, tra gli altri:</p>
-<ul>
-  <li>dati anagrafici e di contatto dei clienti;</li>
-  <li>fotografie dei trattamenti;</li>
-  <li>dati relativi alla salute e all'anamnesi, raccolti tramite i moduli di consenso;</li>
-  <li>moduli di consenso informato e privacy (GDPR) con firma;</li>
-  <li>dati su trattamenti, appuntamenti, pagamenti e magazzino.</li>
-</ul>
-<p>Tutti questi dati sono inseriti volontariamente dall'utente e rimangono nella sua disponibilità.</p>
-
+<p>L'app consente di inserire e gestire, tra gli altri: dati anagrafici e di contatto dei clienti; fotografie dei trattamenti; dati relativi alla salute e all'anamnesi raccolti tramite i moduli di consenso; moduli di consenso informato e privacy (GDPR) con firma; dati su trattamenti, appuntamenti, pagamenti e magazzino. Tutti questi dati sono inseriti volontariamente dall'utente e restano nella sua disponibilità.</p>
 <h2>4. Dove vengono conservati i dati</h2>
-<p>I dati sono salvati <strong>localmente sul dispositivo</strong> dell'utente. Se l'utente attiva la sincronizzazione iCloud (attiva per impostazione predefinita, disattivabile nelle Impostazioni dell'app), i dati vengono sincronizzati tramite il <strong>database iCloud privato</strong> dell'utente, gestito da Apple e accessibile solo dall'utente con il proprio Apple ID. Lo sviluppatore non gestisce alcun server e non riceve copia di questi dati.</p>
-
+<p>I dati sono salvati <strong>localmente sul dispositivo</strong>. Se l'utente attiva la sincronizzazione iCloud (attiva per impostazione predefinita, disattivabile nelle Impostazioni dell'app), i dati sono sincronizzati tramite il <strong>database iCloud privato</strong> dell'utente, gestito da Apple e accessibile solo dall'utente con il proprio Apple ID. Lo sviluppatore non gestisce alcun server e non riceve copia di questi dati.</p>
 <h2>5. Nessuna raccolta da parte dello sviluppatore</h2>
-<p>L'app <strong>non</strong> integra strumenti di analytics, tracciamento, profilazione o pubblicità di terze parti. Lo sviluppatore non raccoglie statistiche d'uso, non riceve i dati inseriti nell'app e non li trasferisce a soggetti terzi.</p>
-
+<p>L'app <strong>non</strong> integra strumenti di analytics, tracciamento, profilazione o pubblicità di terze parti. Lo sviluppatore non raccoglie statistiche d'uso, non riceve i dati inseriti nell'app e non li trasferisce a terzi.</p>
 <h2>6. Acquisti in-app e abbonamenti</h2>
-<p>L'app offre un abbonamento (Pigmatia Pro) gestito tramite il sistema <strong>StoreKit di Apple</strong>. I pagamenti e i relativi dati sono trattati direttamente da Apple secondo la sua informativa privacy; lo sviluppatore non riceve i dati della carta o del pagamento, ma solo l'informazione (anonima rispetto all'identità) che un abbonamento risulta attivo.</p>
-
+<p>L'app offre un abbonamento (Pigmatia Pro) gestito tramite <strong>StoreKit di Apple</strong>. I pagamenti sono trattati direttamente da Apple secondo la sua informativa; lo sviluppatore non riceve i dati della carta o del pagamento, ma solo l'informazione che un abbonamento risulta attivo.</p>
 <h2>7. Permessi del dispositivo</h2>
-<p>Per funzionare l'app può richiedere l'accesso a: <strong>fotocamera</strong> e <strong>libreria foto</strong> (per acquisire e salvare le foto dei trattamenti), <strong>calendario</strong> (per sincronizzare gli appuntamenti) e <strong>notifiche</strong> (per i promemoria). Tali permessi sono usati esclusivamente in locale sul dispositivo e possono essere revocati in qualsiasi momento dalle Impostazioni di iOS.</p>
-
+<p>L'app può richiedere l'accesso a fotocamera e libreria foto (per le foto dei trattamenti), calendario (per gli appuntamenti) e notifiche (per i promemoria). Tali permessi sono usati solo in locale sul dispositivo e revocabili in ogni momento dalle Impostazioni di iOS.</p>
 <h2>8. Conservazione e cancellazione</h2>
-<p>I dati restano memorizzati finché l'utente li mantiene nell'app. L'utente può eliminare singoli record direttamente nell'app, oppure rimuovere tutti i dati locali disinstallando l'app. Per i dati sincronizzati su iCloud, è possibile eliminarli anche dalle impostazioni iCloud del proprio Apple ID.</p>
-
+<p>I dati restano finché l'utente li mantiene. L'utente può eliminare singoli record nell'app o rimuovere tutti i dati locali disinstallando l'app; i dati su iCloud sono eliminabili anche dalle impostazioni iCloud del proprio Apple ID.</p>
 <h2>9. Diritti dell'utente (GDPR)</h2>
-<p>In quanto i dati restano sotto il controllo diretto dell'utente, questi può in ogni momento accedere, rettificare, esportare (tramite le funzioni di backup JSON ed esportazione PDF presenti nell'app) e cancellare i propri dati direttamente dall'app. Per qualsiasi richiesta o chiarimento relativo all'app è possibile scrivere a <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
-
+<p>Poiché i dati restano sotto il controllo diretto dell'utente, questi può in ogni momento accedere, rettificare, esportare (funzioni di backup JSON ed esportazione PDF presenti nell'app) e cancellare i propri dati direttamente dall'app. Per richieste o chiarimenti: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
 <h2>10. Minori</h2>
-<p>L'app è destinata a professionisti ed esercenti attività professionali; non è rivolta né destinata all'uso da parte di minori.</p>
+<p>L'app è destinata a professionisti e non è rivolta a minori.</p>
+<h2>11. Modifiche</h2>
+<p>La presente informativa può essere aggiornata; le modifiche saranno pubblicate in questa pagina con la data di ultimo aggiornamento.</p>
+<footer>Pigmatia &middot; Privacy &middot; <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a></footer>
+</section>
 
-<h2>11. Modifiche alla presente informativa</h2>
-<p>La presente informativa può essere aggiornata nel tempo. Le modifiche saranno pubblicate in questa pagina con l'indicazione della data di ultimo aggiornamento.</p>
+<!-- ===================== ENGLISH ===================== -->
+<section class="lang" data-lang="en">
+<h1>Privacy Policy</h1>
+<p class="updated"><strong>Pigmatia</strong> app &middot; Last updated: June 4, 2026</p>
+<div class="box"><strong>In short:</strong> Pigmatia keeps your data and your clients' data <strong>on your device</strong> and, if you enable sync, in <strong>your private iCloud</strong>. The developer <strong>has no access</strong> to this data, does not collect it and does not share it with third parties. The app uses no tracking or advertising tools.</div>
+<h2>1. Data controller</h2>
+<p>The data controller for data related to the Pigmatia app is the app's developer (sole proprietorship), reachable at: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>2. Who the app is for and privacy roles</h2>
+<p>Pigmatia is a management tool for dermopigmentation professionals. End-client data (personal details, contacts, photos, health/medical-history data, consents, payments) is entered by the professional who uses the app. With respect to such data, <strong>the professional is the data controller</strong> of their own clients' data and is responsible for obtaining the necessary consents and complying with the GDPR towards their clients. Pigmatia is solely a software tool that stores data on the professional's device.</p>
+<h2>3. What data the app handles</h2>
+<p>The app lets you enter and manage, among others: clients' personal and contact details; treatment photographs; health and medical-history data collected through consent forms; informed-consent and privacy (GDPR) forms with signature; data on treatments, appointments, payments and inventory. All such data is entered voluntarily by the user and remains under their control.</p>
+<h2>4. Where data is stored</h2>
+<p>Data is stored <strong>locally on the device</strong>. If the user enables iCloud sync (on by default, can be disabled in the app's Settings), data is synced through the user's <strong>private iCloud database</strong>, managed by Apple and accessible only by the user with their Apple ID. The developer runs no server and receives no copy of this data.</p>
+<h2>5. No collection by the developer</h2>
+<p>The app integrates <strong>no</strong> analytics, tracking, profiling or third-party advertising tools. The developer collects no usage statistics, does not receive the data entered in the app and does not transfer it to third parties.</p>
+<h2>6. In-app purchases and subscriptions</h2>
+<p>The app offers a subscription (Pigmatia Pro) handled through <strong>Apple's StoreKit</strong>. Payments are processed directly by Apple under its own policy; the developer receives no card or payment data, only the information that a subscription is active.</p>
+<h2>7. Device permissions</h2>
+<p>The app may request access to the camera and photo library (for treatment photos), calendar (for appointments) and notifications (for reminders). These permissions are used only locally on the device and can be revoked at any time in iOS Settings.</p>
+<h2>8. Retention and deletion</h2>
+<p>Data is kept as long as the user keeps it. The user can delete individual records in the app or remove all local data by uninstalling the app; iCloud data can also be deleted from the iCloud settings of their Apple ID.</p>
+<h2>9. User rights (GDPR)</h2>
+<p>Since data remains under the user's direct control, the user can at any time access, rectify, export (JSON backup and PDF export functions in the app) and delete their data directly from the app. For requests or questions: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>10. Minors</h2>
+<p>The app is intended for professionals and is not directed to minors.</p>
+<h2>11. Changes</h2>
+<p>This policy may be updated; changes will be posted on this page with the last-updated date.</p>
+<footer>Pigmatia &middot; Privacy &middot; <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a></footer>
+</section>
 
-<footer>
-Pigmatia &middot; Informativa sulla Privacy &middot; Contatto: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>
-</footer>
+<!-- ===================== ESPAÑOL ===================== -->
+<section class="lang" data-lang="es">
+<h1>Política de Privacidad</h1>
+<p class="updated">App <strong>Pigmatia</strong> &middot; Última actualización: 4 de junio de 2026</p>
+<div class="box"><strong>En resumen:</strong> Pigmatia conserva tus datos y los de tus clientes <strong>en tu dispositivo</strong> y, si activas la sincronización, en <strong>tu iCloud privado</strong>. El desarrollador <strong>no tiene acceso</strong> a estos datos, no los recopila ni los comparte con terceros. La app no usa herramientas de seguimiento ni publicidad.</div>
+<h2>1. Responsable del tratamiento</h2>
+<p>El responsable del tratamiento de los datos relativos a la app Pigmatia es el desarrollador de la app (empresario individual), localizable en: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>2. A quién se dirige la app y roles de privacidad</h2>
+<p>Pigmatia es una herramienta de gestión para profesionales de la dermopigmentación. Los datos de los clientes finales (datos personales, contactos, fotos, datos de salud/historial, consentimientos, pagos) los introduce el profesional que usa la app. Respecto a esos datos, <strong>el profesional es el responsable del tratamiento</strong> de los datos de sus propios clientes y es responsable de obtener los consentimientos necesarios y de cumplir el RGPD frente a sus clientes. Pigmatia es únicamente una herramienta de software que almacena los datos en el dispositivo del profesional.</p>
+<h2>3. Qué datos trata la app</h2>
+<p>La app permite introducir y gestionar, entre otros: datos personales y de contacto de los clientes; fotografías de los tratamientos; datos de salud e historial recogidos mediante los formularios de consentimiento; formularios de consentimiento informado y privacidad (RGPD) con firma; datos sobre tratamientos, citas, pagos e inventario. Todos estos datos los introduce voluntariamente el usuario y permanecen bajo su control.</p>
+<h2>4. Dónde se conservan los datos</h2>
+<p>Los datos se guardan <strong>localmente en el dispositivo</strong>. Si el usuario activa la sincronización con iCloud (activa por defecto, desactivable en los Ajustes de la app), los datos se sincronizan a través de la <strong>base de datos privada de iCloud</strong> del usuario, gestionada por Apple y accesible solo por el usuario con su Apple ID. El desarrollador no gestiona ningún servidor ni recibe copia de estos datos.</p>
+<h2>5. Ninguna recopilación por parte del desarrollador</h2>
+<p>La app <strong>no</strong> integra herramientas de analítica, seguimiento, elaboración de perfiles ni publicidad de terceros. El desarrollador no recopila estadísticas de uso, no recibe los datos introducidos en la app y no los transfiere a terceros.</p>
+<h2>6. Compras dentro de la app y suscripciones</h2>
+<p>La app ofrece una suscripción (Pigmatia Pro) gestionada mediante <strong>StoreKit de Apple</strong>. Los pagos los procesa directamente Apple según su propia política; el desarrollador no recibe datos de la tarjeta o del pago, solo la información de que una suscripción está activa.</p>
+<h2>7. Permisos del dispositivo</h2>
+<p>La app puede solicitar acceso a la cámara y la fototeca (para las fotos de los tratamientos), el calendario (para las citas) y las notificaciones (para los recordatorios). Estos permisos se usan solo localmente en el dispositivo y se pueden revocar en cualquier momento en los Ajustes de iOS.</p>
+<h2>8. Conservación y eliminación</h2>
+<p>Los datos se conservan mientras el usuario los mantenga. El usuario puede eliminar registros concretos en la app o borrar todos los datos locales desinstalando la app; los datos en iCloud también se pueden eliminar desde los ajustes de iCloud de su Apple ID.</p>
+<h2>9. Derechos del usuario (RGPD)</h2>
+<p>Como los datos permanecen bajo el control directo del usuario, este puede en cualquier momento acceder, rectificar, exportar (funciones de copia de seguridad JSON y exportación PDF de la app) y eliminar sus datos directamente desde la app. Para solicitudes o aclaraciones: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>10. Menores</h2>
+<p>La app está destinada a profesionales y no se dirige a menores.</p>
+<h2>11. Cambios</h2>
+<p>Esta política puede actualizarse; los cambios se publicarán en esta página con la fecha de última actualización.</p>
+<footer>Pigmatia &middot; Privacidad &middot; <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a></footer>
+</section>
+
+<!-- ===================== FRANÇAIS ===================== -->
+<section class="lang" data-lang="fr">
+<h1>Politique de Confidentialité</h1>
+<p class="updated">Application <strong>Pigmatia</strong> &middot; Dernière mise à jour : 4 juin 2026</p>
+<div class="box"><strong>En bref :</strong> Pigmatia conserve vos données et celles de vos clients <strong>sur votre appareil</strong> et, si vous activez la synchronisation, dans <strong>votre iCloud privé</strong>. Le développeur <strong>n'a pas accès</strong> à ces données, ne les collecte pas et ne les partage pas avec des tiers. L'application n'utilise aucun outil de suivi ni de publicité.</div>
+<h2>1. Responsable du traitement</h2>
+<p>Le responsable du traitement des données relatives à l'application Pigmatia est le développeur de l'application (entreprise individuelle), joignable à : <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>2. À qui s'adresse l'application et rôles en matière de confidentialité</h2>
+<p>Pigmatia est un outil de gestion destiné aux professionnels de la dermopigmentation. Les données des clients finaux (informations personnelles, contacts, photos, données de santé/antécédents, consentements, paiements) sont saisies par le professionnel qui utilise l'application. À l'égard de ces données, <strong>le professionnel est le responsable du traitement</strong> des données de ses propres clients et est tenu de recueillir les consentements nécessaires et de respecter le RGPD envers ses clients. Pigmatia est uniquement un outil logiciel qui stocke les données sur l'appareil du professionnel.</p>
+<h2>3. Quelles données l'application traite</h2>
+<p>L'application permet de saisir et de gérer, entre autres : les coordonnées des clients ; les photographies des traitements ; les données de santé et d'antécédents recueillies via les formulaires de consentement ; les formulaires de consentement éclairé et de confidentialité (RGPD) avec signature ; les données sur les traitements, rendez-vous, paiements et stocks. Toutes ces données sont saisies volontairement par l'utilisateur et restent sous son contrôle.</p>
+<h2>4. Où les données sont conservées</h2>
+<p>Les données sont enregistrées <strong>localement sur l'appareil</strong>. Si l'utilisateur active la synchronisation iCloud (activée par défaut, désactivable dans les Réglages de l'application), les données sont synchronisées via la <strong>base de données iCloud privée</strong> de l'utilisateur, gérée par Apple et accessible uniquement par l'utilisateur avec son identifiant Apple. Le développeur ne gère aucun serveur et ne reçoit aucune copie de ces données.</p>
+<h2>5. Aucune collecte par le développeur</h2>
+<p>L'application n'intègre <strong>aucun</strong> outil d'analyse, de suivi, de profilage ou de publicité tiers. Le développeur ne collecte aucune statistique d'utilisation, ne reçoit pas les données saisies dans l'application et ne les transfère pas à des tiers.</p>
+<h2>6. Achats intégrés et abonnements</h2>
+<p>L'application propose un abonnement (Pigmatia Pro) géré via <strong>StoreKit d'Apple</strong>. Les paiements sont traités directement par Apple selon sa propre politique ; le développeur ne reçoit aucune donnée de carte ou de paiement, mais seulement l'information qu'un abonnement est actif.</p>
+<h2>7. Autorisations de l'appareil</h2>
+<p>L'application peut demander l'accès à l'appareil photo et à la photothèque (pour les photos des traitements), au calendrier (pour les rendez-vous) et aux notifications (pour les rappels). Ces autorisations sont utilisées uniquement localement sur l'appareil et peuvent être révoquées à tout moment dans les Réglages d'iOS.</p>
+<h2>8. Conservation et suppression</h2>
+<p>Les données sont conservées tant que l'utilisateur les conserve. L'utilisateur peut supprimer des enregistrements individuels dans l'application ou effacer toutes les données locales en désinstallant l'application ; les données iCloud peuvent également être supprimées depuis les réglages iCloud de son identifiant Apple.</p>
+<h2>9. Droits de l'utilisateur (RGPD)</h2>
+<p>Les données restant sous le contrôle direct de l'utilisateur, celui-ci peut à tout moment accéder, rectifier, exporter (fonctions de sauvegarde JSON et d'export PDF de l'application) et supprimer ses données directement depuis l'application. Pour toute demande ou question : <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>10. Mineurs</h2>
+<p>L'application est destinée aux professionnels et ne s'adresse pas aux mineurs.</p>
+<h2>11. Modifications</h2>
+<p>La présente politique peut être mise à jour ; les modifications seront publiées sur cette page avec la date de dernière mise à jour.</p>
+<footer>Pigmatia &middot; Confidentialité &middot; <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a></footer>
+</section>
+
+<!-- ===================== DEUTSCH ===================== -->
+<section class="lang" data-lang="de">
+<h1>Datenschutzerklärung</h1>
+<p class="updated"><strong>Pigmatia</strong>-App &middot; Letzte Aktualisierung: 4. Juni 2026</p>
+<div class="box"><strong>Kurz gesagt:</strong> Pigmatia speichert Ihre Daten und die Ihrer Kunden <strong>auf Ihrem Gerät</strong> und, wenn Sie die Synchronisierung aktivieren, in <strong>Ihrem privaten iCloud</strong>. Der Entwickler <strong>hat keinen Zugriff</strong> auf diese Daten, erhebt sie nicht und gibt sie nicht an Dritte weiter. Die App verwendet keine Tracking- oder Werbe-Tools.</div>
+<h2>1. Verantwortlicher</h2>
+<p>Verantwortlicher für die Daten im Zusammenhang mit der App Pigmatia ist der Entwickler der App (Einzelunternehmen), erreichbar unter: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>2. An wen sich die App richtet und Datenschutzrollen</h2>
+<p>Pigmatia ist ein Verwaltungswerkzeug für Fachleute der Dermopigmentierung. Die Daten der Endkunden (Stammdaten, Kontakte, Fotos, Gesundheits-/Anamnesedaten, Einwilligungen, Zahlungen) werden von der Fachkraft eingegeben, die die App nutzt. In Bezug auf diese Daten ist <strong>die Fachkraft der Verantwortliche</strong> für die Daten ihrer eigenen Kunden und dafür verantwortlich, die erforderlichen Einwilligungen einzuholen und die DSGVO gegenüber ihren Kunden einzuhalten. Pigmatia ist ausschließlich ein Software-Werkzeug, das die Daten auf dem Gerät der Fachkraft speichert.</p>
+<h2>3. Welche Daten die App verarbeitet</h2>
+<p>Die App ermöglicht u. a. das Erfassen und Verwalten von: Stamm- und Kontaktdaten der Kunden; Behandlungsfotos; Gesundheits- und Anamnesedaten, die über die Einwilligungsformulare erhoben werden; Einwilligungs- und Datenschutzformularen (DSGVO) mit Unterschrift; Daten zu Behandlungen, Terminen, Zahlungen und Lager. Alle diese Daten werden freiwillig vom Nutzer eingegeben und verbleiben unter seiner Kontrolle.</p>
+<h2>4. Wo die Daten gespeichert werden</h2>
+<p>Die Daten werden <strong>lokal auf dem Gerät</strong> gespeichert. Aktiviert der Nutzer die iCloud-Synchronisierung (standardmäßig aktiv, in den Einstellungen der App deaktivierbar), werden die Daten über die <strong>private iCloud-Datenbank</strong> des Nutzers synchronisiert, die von Apple verwaltet wird und nur für den Nutzer mit seiner Apple-ID zugänglich ist. Der Entwickler betreibt keinen Server und erhält keine Kopie dieser Daten.</p>
+<h2>5. Keine Erhebung durch den Entwickler</h2>
+<p>Die App bindet <strong>keine</strong> Analyse-, Tracking-, Profiling- oder Werbe-Tools Dritter ein. Der Entwickler erhebt keine Nutzungsstatistiken, erhält die in der App eingegebenen Daten nicht und übermittelt sie nicht an Dritte.</p>
+<h2>6. In-App-Käufe und Abonnements</h2>
+<p>Die App bietet ein Abonnement (Pigmatia Pro), das über <strong>Apples StoreKit</strong> abgewickelt wird. Zahlungen werden direkt von Apple gemäß dessen eigener Richtlinie verarbeitet; der Entwickler erhält keine Karten- oder Zahlungsdaten, sondern nur die Information, dass ein Abonnement aktiv ist.</p>
+<h2>7. Geräteberechtigungen</h2>
+<p>Die App kann den Zugriff auf Kamera und Fotomediathek (für Behandlungsfotos), Kalender (für Termine) und Mitteilungen (für Erinnerungen) anfordern. Diese Berechtigungen werden nur lokal auf dem Gerät verwendet und können jederzeit in den iOS-Einstellungen widerrufen werden.</p>
+<h2>8. Aufbewahrung und Löschung</h2>
+<p>Die Daten bleiben gespeichert, solange der Nutzer sie behält. Der Nutzer kann einzelne Einträge in der App löschen oder alle lokalen Daten durch Deinstallation der App entfernen; iCloud-Daten können auch über die iCloud-Einstellungen seiner Apple-ID gelöscht werden.</p>
+<h2>9. Rechte des Nutzers (DSGVO)</h2>
+<p>Da die Daten unter der direkten Kontrolle des Nutzers bleiben, kann dieser jederzeit auf seine Daten zugreifen, sie berichtigen, exportieren (JSON-Backup- und PDF-Exportfunktionen in der App) und direkt in der App löschen. Für Anfragen oder Auskünfte: <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a>.</p>
+<h2>10. Minderjährige</h2>
+<p>Die App richtet sich an Fachleute und nicht an Minderjährige.</p>
+<h2>11. Änderungen</h2>
+<p>Diese Erklärung kann aktualisiert werden; Änderungen werden auf dieser Seite mit dem Datum der letzten Aktualisierung veröffentlicht.</p>
+<footer>Pigmatia &middot; Datenschutz &middot; <a href="mailto:martino.apps.dev@gmail.com">martino.apps.dev@gmail.com</a></footer>
+</section>
+
+<script>
+  var supported = ["it","en","es","fr","de"];
+  function setLang(l){
+    if(supported.indexOf(l)<0) l="en";
+    document.documentElement.lang=l;
+    document.querySelectorAll("section.lang").forEach(function(s){
+      s.classList.toggle("active", s.getAttribute("data-lang")===l);
+    });
+    document.querySelectorAll(".langbar button").forEach(function(b){
+      b.classList.toggle("active", b.getAttribute("data-lang")===l);
+    });
+    try{ localStorage.setItem("pigmatia_priv_lang", l);}catch(e){}
+  }
+  document.querySelectorAll(".langbar button").forEach(function(b){
+    b.addEventListener("click", function(){ setLang(b.getAttribute("data-lang")); });
+  });
+  var saved=null; try{ saved=localStorage.getItem("pigmatia_priv_lang"); }catch(e){}
+  var initial = saved || (navigator.language||"en").slice(0,2).toLowerCase();
+  setLang(initial);
+</script>
 
 </body>
 </html>
